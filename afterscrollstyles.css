@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+@keyframes fade{
+    from {opacity: 0; transform: scale(0.5);}
+    to {opacity: 1; transform: scale(1);}
+}
+
+.profile-img{
+    animation: fade 2s ease-in-out;
+}
+
+.hero-section, .education-section, .cont-section, .experience-section, .bar-sec, .skill-sec {
+    color: rgb(221, 219, 217);
+    padding: 60px 0;
+}
+
+/* Sidebar Styling */
+
+
+/* .col-md-3 {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 20px;
+} */
+
+/* Progress Bar Styling */
+.progress {
+    height: 20px;
+    border-radius: 10px;
+}
+
+.progress-bar {
+    font-weight: bold;
+    text-align: center;
+    line-height: 20px;
+}
+
+.aligned-text {
+    color: rgb(221, 219, 217);
+    text-indent: -10px;
+}
+
+ /* .experience-section .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+} */
+
+.about-section .container {
+    color: rgb(221, 219, 217);
+    padding: 60px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+} 
+
+
+form .btn-primary {
+    background-color: #6b9fd6;
+    border: none;
+}
+
+form .btn-primary:hover {
+    background-color: #18416c;
+}
+
+.custom-alert {
+    background-color: #7f9cbe;;
+    /* border: 2px solid #5e4567; */
+    color: #273647;;
+}
+
+.card {
+    background-color: rgb(33, 37, 41);
+    color: rgb(221, 219, 217);
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
